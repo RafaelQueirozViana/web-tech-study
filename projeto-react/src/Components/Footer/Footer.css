@@ -1,0 +1,40 @@
+.footer {
+  background-color: #172554;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #cbd5e1;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.social a {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: white;
+}
+
+.copyright {
+  border-top: 1px solid #334155;
+  padding-top: 20px;
+  margin-top: 25px;
+  font-size: 14px;
+}
