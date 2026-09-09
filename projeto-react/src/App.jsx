@@ -1,7 +1,7 @@
 import Header from "./Components/Header"
 import "./global.css"
-import Home from "./Pages/Home"
-import Footer from "./Components/Footer";
+import Router from "./Router"
+
 
 
 function App () {
@@ -9,8 +9,7 @@ function App () {
   return (
     <>
       <Header />
-      <Home />
-       <Footer />
+      <Router /> 
     </>
   )
 }
